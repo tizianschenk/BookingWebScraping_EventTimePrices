@@ -33,8 +33,3 @@ Runtime dependencies:
 Development dependencies:
 - ipykernel
 
-## Run
-
-Run the main script with:
-
-    uv run python main.py
