@@ -1,0 +1,21 @@
+[project]
+name = "bookingwebscraping-eventtimeprices"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "lxml>=6.0.2",
+    "numpy>=1.26.4,<2.0.0",
+    "pandas>=2.0.0,<3.0.0",
+    "pyarrow>=21.0.0,<22.0.0",
+    "requests>=2.31,<3",
+    "selenium>=4.39.0",
+    "webdriver-manager>=4.0.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+]
